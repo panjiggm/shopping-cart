@@ -12,7 +12,7 @@ export default function MainNavigation({ cartItemNumber }) {
             <NavLink to="/">Products</NavLink>
           </li>
           <li>
-            <NavLink to="/cart">Cart {cartItemNumber}</NavLink>
+            <NavLink to="/cart">Cart ({cartItemNumber})</NavLink>
           </li>
         </ul>
       </nav>
