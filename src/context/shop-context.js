@@ -1,7 +1,7 @@
 import React from "react";
 
 export default React.createContext({
-  product: [
+  products: [
     { id: "p1", title: "Gaming Keyboard", price: 2000000 },
     { id: "p2", title: "Shirohige Action Figure", price: 5000000 },
     { id: "p3", title: "Call of Duty: Black Ops", price: 700000 },

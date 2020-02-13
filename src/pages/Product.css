@@ -1,0 +1,30 @@
+.products {
+  width: 50rem;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.products ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.products li {
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products button {
+  background: teal;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
